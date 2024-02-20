@@ -2,8 +2,8 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from tinkoff.cloud.longrunning.v1 import longrunning_pb2 as tinkoff_dot_cloud_dot_longrunning_dot_v1_dot_longrunning__pb2
-from tinkoff.cloud.stt.v1 import stt_pb2 as tinkoff_dot_cloud_dot_stt_dot_v1_dot_stt__pb2
+import longrunning_pb2 as tinkoff_dot_cloud_dot_longrunning_dot_v1_dot_longrunning__pb2
+import stt_pb2 as tinkoff_dot_cloud_dot_stt_dot_v1_dot_stt__pb2
 
 
 class SpeechToTextStub(object):
